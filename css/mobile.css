@@ -1,0 +1,19 @@
+@media screen and (max-width: 650px)  {
+  .products{
+    display: inherit;
+    height: auto;
+  }
+  .product{
+    margin-top: auto;
+  }
+  .main_section{
+    padding: 4%;
+  }
+  .description, .container-user{
+    display: inherit;
+  }
+  .reference, .user{
+    margin: 15px auto;
+    width: 50%;
+  }
+}

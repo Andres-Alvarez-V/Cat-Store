@@ -1,0 +1,50 @@
+h1{
+  max-width: 1100px;
+  margin: 50px  auto 0;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.container{
+  max-width: 1024px;
+  margin:auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows:repeat(3,300px);
+  grid-gap: 25px;
+  justify-items: center;
+  align-items: center;
+}
+.one, .five{
+  grid-column: 1/2;
+  text-align: center;
+}
+.two, .six{
+  grid-column: 2/span 3;
+  width: 100%
+}
+.three{
+  width: 100%;
+  grid-column:1/span 3
+}
+.four{
+  grid-column-end: 5;
+  text-align: center;
+}
+
+.container img{
+  width: 60%;
+}
+.container h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+.container p{
+  font-size: 15px;
+  width: 90%;
+}
+@media screen and (max-width:900px) {
+
+
+
+}
